@@ -26,7 +26,7 @@ add_filter( 'widget_text', 'wpsos_replace_copyright_year', 10, 1 );
 // Include the scripts required by the plugin
 function wpsos_include_scripts(){
 	wp_enqueue_script('jquery');
-	wp_enqueue_script( 'wpsos-copyright', plugin_dir_url( __FILE__ ) . 'script.js', array('jquery'), false, false);
+	wp_enqueue_script( 'wpsos-copyright', plugin_dir_url( __FILE__ ) . 'script.js', array('jquery'), '1.0', true);
 }
 add_action( 'wp_enqueue_scripts', 'wpsos_include_scripts' );
 ?>
