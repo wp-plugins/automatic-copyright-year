@@ -27,7 +27,7 @@ The installation and use is very straightforward. You should:
 
 1. Upload the folder `automatic-copyright-year` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Add '<span>[wpsos_year]</span>' to a widget or to anywhere inside the html footer element
+3. Add '&lt;span&gt;[wpsos_year]&lt;/span&gt;' (<span>[wpsos_year]</span>, surrounded by span tags) to a widget or to anywhere inside the html footer element
 
 == Frequently Asked Questions ==
 
